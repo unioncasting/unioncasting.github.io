@@ -11,478 +11,481 @@
 </head>
 
 <body onload="window.scrollTo((document.body.scrollWidth-document.body.offsetWidth)/2,0)">
-        <table style="width:100%;" align="center" border="0" cellpadding="0" cellspacing="0">
-            <tr>
-                <td valign="top" style="background:url(images/bg.jpg) repeat-x;">
-                    <table style="width:988px; height:115px; " align="center" border="0" cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td style=" width:988px; height:77px;" valign="top">
-                                <img src="./images/index_04.jpg" alt="" border="0" usemap="#Map" style=" width:988px; height:73px;" />
-                             </td>
-                        </tr>
-                        <tr>
-                            <td style="height:38px" valign="top">
-                                <table style="width:986px;" border="0" cellpadding="0" cellspacing="0">
-                                    <tr valign="top">
-                                        <td>
-                                            <span onclick="javascript:window.location.href='./en-index.html'" style="cursor:pointer">
+    <table style="width:100%;" align="center" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td valign="top" style="background:url(images/bg.jpg) repeat-x;">
+                <table style="width:988px; height:115px; " align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style=" width:988px; height:77px;" valign="top">
+                            <img src="./images/index_04.jpg" alt="" border="0" usemap="#Map" style=" width:988px; height:73px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:38px" valign="top">
+                            <table style="width:986px;" border="0" cellpadding="0" cellspacing="0">
+                                <tr valign="top">
+                                    <td>
+                                        <span onclick="javascript:window.location.href='./en-index.html'" style="cursor:pointer">
                                                 <img  alt="" src="./images/index_05-06.jpg"  />
                                             </span>
-                                        </td>
-                                        <td>
-                                            <span onclick="javascript:window.location.href='./en-about.html'" style="cursor:pointer">
+                                    </td>
+                                    <td>
+                                        <span onclick="javascript:window.location.href='./en-about.html'" style="cursor:pointer">
                                                 <img  alt="" src="./images/index_08.jpg" />
                                             </span>
-                                        </td>
-                                        <td>
-                                            <span onclick="javascript:window.location.href='./en-product.html'" style="cursor:pointer">
+                                    </td>
+                                    <td>
+                                        <span onclick="javascript:window.location.href='./en-product.html'" style="cursor:pointer">
                                                 <img  alt="" src="./images/index_10.jpg" />
                                             </span>
-                                        </td>
-                                        <td>
-                                            <span onclick="javascript:window.location.href='./en-production.html'" style="cursor:pointer">
+                                    </td>
+                                    <td>
+                                        <span onclick="javascript:window.location.href='./en-production.html'" style="cursor:pointer">
                                                 <img alt="" src="./images/index_11.jpg" />
                                             </span>
-                                        </td>
-                                        <td>
-                                            <span onclick="javascript:window.location.href='./en-marketing.html'" style="cursor:pointer">
+                                    </td>
+                                    <td>
+                                        <span onclick="javascript:window.location.href='./en-marketing.html'" style="cursor:pointer">
                                                 <img   alt="" src="./images/index_12.jpg" />
                                             </span>
-                                        </td>
-                                        <td>
-                                            <span onclick="javascript:window.location.href='./en-contactUs.html'" style="cursor:pointer">
+                                    </td>
+                                    <td>
+                                        <span onclick="javascript:window.location.href='./en-contactUs.html'" style="cursor:pointer">
                                                 <img   alt="" src="./images/index_13.jpg" />
                                             </span>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td valign="top">
-                    <link href="./css/main.css" rel="stylesheet" type="text/css" />
-                    <script type="text/javascript" src="./js/jquery-1.4.4.min.js"></script>
-                    <script type="text/javascript" src="./js/slides.jquery.js"></script>
-                    <script type="text/javascript">
-                        $(function () {
-                            //滚动Banner图片的显示
-                            $('#slides').slides({
-                                preload: false,
-                                // preloadImage: '/images/loading.gif',
-                                effect: 'fade',
-                                slideSpeed: 400,
-                                fadeSpeed: 100,
-                                play: 3000,
-                                pause: 100,
-                                hoverPause: true
-                            });
-                            //$('#js-news').ticker();
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <map name="Map" id="Map">
+                   <area shape="rect" coords="781,1,834,24" href="./index.html">
+                   <area shape="rect" coords="835,1,907,26" href="./en-index.html">
+                </map>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <link href="./css/main.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="./js/jquery-1.4.4.min.js"></script>
+                <script type="text/javascript" src="./js/slides.jquery.js"></script>
+                <script type="text/javascript">
+                    $(function () {
+                        //滚动Banner图片的显示
+                        $('#slides').slides({
+                            preload: false,
+                            // preloadImage: '/images/loading.gif',
+                            effect: 'fade',
+                            slideSpeed: 400,
+                            fadeSpeed: 100,
+                            play: 3000,
+                            pause: 100,
+                            hoverPause: true
                         });
-                    </script>
-                    <div id="slides" class="banner">
-                        <div class="bannerImg">
-                            <div id="slide1_imgs" class="slides_container">
-                                <div id=banner_pic_1>
-                                    <a href='' target=_blank><img src=./upload/banner_pic_1.png></a>
-                                </div>
-                                <div id=banner_pic_2 style='DISPLAY: none'>
-                                    <a href='' target=_blank><img src=./upload/banner_pic_2.jpg></a>
-                                </div>
-                                <div id=banner_pic_3 style='DISPLAY: none'>
-                                    <a href='' target=_blank><img src=./upload/banner_pic_3.jpg></a>
-                                </div>
+                        //$('#js-news').ticker();
+                    });
+                </script>
+                <div id="slides" class="banner">
+                    <div class="bannerImg">
+                        <div id="slide1_imgs" class="slides_container">
+                            <div id=banner_pic_1>
+                                <a href='' target=_blank><img src=./upload/banner_pic_1.png></a>
+                            </div>
+                            <div id=banner_pic_2 style='DISPLAY: none'>
+                                <a href='' target=_blank><img src=./upload/banner_pic_2.jpg></a>
+                            </div>
+                            <div id=banner_pic_3 style='DISPLAY: none'>
+                                <a href='' target=_blank><img src=./upload/banner_pic_3.jpg></a>
                             </div>
                         </div>
                     </div>
-                </td>
-            </tr>
-            <tr>
-                <td style="height:15px;background-color: #fbfcfe">
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" style="background-image: url(images/cp_09.jpg); height:292px; background-color: #fbfcfe">
-                    <table border="0" cellpadding="0" cellspacing="0" style="width:990px" align="center">
-                        <tr>
-                            <td valign="top">
-                                <table border="0" cellpadding="0" cellspacing="0" style="width:320px;">
-                                    <tr>
-                                        <td>
-                                            <div style="border: 1px solid #d8d5d5; height:30px; background-image:url(images/bg3.jpg);  height:31px; ">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height:15px;background-color: #fbfcfe">
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" style="background-image: url(images/cp_09.jpg); height:292px; background-color: #fbfcfe">
+                <table border="0" cellpadding="0" cellspacing="0" style="width:990px" align="center">
+                    <tr>
+                        <td valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" style="width:320px;">
+                                <tr>
+                                    <td>
+                                        <div style="border: 1px solid #d8d5d5; height:30px; background-image:url(images/bg3.jpg);  height:31px; ">
 
-                                                <span style="text-align:left; display:block;float:left;line-height:30px;padding:0px 10px 0px 20px;font-weight:bold;font-size:13px; color:Gray">About Us</span>
-                                                <span style="text-align:right;padding-right:5px;display:block;float:right;line-height:30px;padding:0px 10px 0px 10px;font-weight:bold; font-size:12px; font-family:宋体; color:#666"><a href="en-about.html">More</a></span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-size:12px; font-family:宋体;color: #666666; border-style: solid; border-width: 0px 1px 1px 1px; border-color: #d8d5d5; height:250px;"
-                                            valign="top">
+                                            <span style="text-align:left; display:block;float:left;line-height:30px;padding:0px 10px 0px 20px;font-weight:bold;font-size:13px; color:Gray">About Us</span>
+                                            <span style="text-align:right;padding-right:5px;display:block;float:right;line-height:30px;padding:0px 10px 0px 10px;font-weight:bold; font-size:12px; font-family:宋体; color:#666"><a href="en-about.html">More</a></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:12px; font-family:宋体;color: #666666; border-style: solid; border-width: 0px 1px 1px 1px; border-color: #d8d5d5; height:250px;"
+                                        valign="top">
 
-                                            <div style="margin-left:12px; margin-right:12px; line-height:20px">
-                                                <span id="lbContent"><!--StartFragment -->
+                                        <div style="margin-left:12px; margin-right:12px; line-height:20px">
+                                            <span id="lbContent"><!--StartFragment -->
 <div>　Engaged in casting and machining, Ningbo Union-Ligu Machinery Manufacturing Co., Ltd is a joint venture invested by Xiamen Union Spares Ltd and Ningbo Ligu Machinery Manufacturing Co., Ltd with registered capital 20 million CNY . <br/>
   Founded in November of 2006, and it began actual production in August of 2007. During years of developing, company’s floor area has been more than 20000 square meters, and building area more than 10000 square meters. And there are around 200 works staffs and among them, 20 more in technical department. The annual ...</div></span>
 
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td style="width:20px;"> &nbsp;&nbsp;&nbsp;</td>
-                            <td valign="top">
-                                <table border="0" cellpadding="0" cellspacing="0" align="center" style="width:365px;">
-                                    <tr>
-                                        <td>
-                                            <div style="border: 1px solid #d8d5d5; height:30px; background-image:url(images/bg3.jpg);  height:31px; ">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width:20px;"> &nbsp;&nbsp;&nbsp;</td>
+                        <td valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" align="center" style="width:365px;">
+                                <tr>
+                                    <td>
+                                        <div style="border: 1px solid #d8d5d5; height:30px; background-image:url(images/bg3.jpg);  height:31px; ">
 
-                                                <span style="text-align:left; display:block;float:left;line-height:30px;padding:0px 10px 0px 20px;font-weight:bold; font-size:13px; color:Gray">Products</span>
-                                                <span style="text-align:right;padding-right:5px;display:block;float:right;line-height:30px;padding:0px 10px 0px 10px;font-weight:bold;font-size:12px; font-family:宋体; color:#666"><a href="en-product.html">More</a></span>
-                                            </div>
-                                        </td>
+                                            <span style="text-align:left; display:block;float:left;line-height:30px;padding:0px 10px 0px 20px;font-weight:bold; font-size:13px; color:Gray">Products</span>
+                                            <span style="text-align:right;padding-right:5px;display:block;float:right;line-height:30px;padding:0px 10px 0px 10px;font-weight:bold;font-size:12px; font-family:宋体; color:#666"><a href="en-product.html">More</a></span>
+                                        </div>
+                                    </td>
 
-                                    </tr>
+                                </tr>
 
-                                    <tr>
-                                        <td>
-                                            <div style="border-style: solid; border-width: 0px 1px 1px 1px; border-color: #d8d5d5; height:250px; width:365px;">
+                                <tr>
+                                    <td>
+                                        <div style="border-style: solid; border-width: 0px 1px 1px 1px; border-color: #d8d5d5; height:250px; width:365px;">
 
-                                                <table style="width:365px;" border="0" cellpadding="0" cellspacing="0">
-                                                    <tr>
-                                                        <td colspan="4" style="line-height:20px; margin-left:15px; padding-top:20px; font-size:12px; font-family:宋体; color:#666666">
-                                                           Adopting retinites and swages as its handcraft sculpt,
-                                                           intermediate frequency electric cookers and cupolas... 
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td valign="top"><img src="images/left.jpg" /></td>
-                                                        <td>
-                                                            <div id="demo" style="OVERFLOW: hidden; WIDTH:327px; HEIGHT: 220px">
-                                                                <table style="width:365px; height:220px;" border="0" cellpadding="0" cellspacing="0">
-                                                                    <tr>
-                                                                        <td id="demo1">
-                                                                            <table style="width:320px; height:220px;  background-repeat:repeat-x" border="0" cellpadding="0" cellspacing="0">
-                                                                                <tr>
-                                                                                    <td valign="middle" style="margin-left:20px;">
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/20131120142752.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   空气压缩机</a>
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                            </table>
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
+                                            <table style="width:365px;" border="0" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td colspan="4" style="line-height:20px; margin-left:15px; padding-top:20px; font-size:12px; font-family:宋体; color:#666666">
+                                                        Adopting retinites and swages as its handcraft sculpt, intermediate frequency electric cookers and cupolas...
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top"><img src="images/left.jpg" /></td>
+                                                    <td>
+                                                        <div id="demo" style="OVERFLOW: hidden; WIDTH:327px; HEIGHT: 220px">
+                                                            <table style="width:365px; height:220px;" border="0" cellpadding="0" cellspacing="0">
+                                                                <tr>
+                                                                    <td id="demo1">
+                                                                        <table style="width:320px; height:220px;  background-repeat:repeat-x" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tr>
+                                                                                <td valign="middle" style="margin-left:20px;">
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/20131120142752.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   空气压缩机</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
 
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/20131120142713.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   电机座</a>
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                            </table>
-
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
-
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/20131120142450.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   箱体</a>
-                                                                                                    </td>
-                                                                                                </tr>
-
-
-                                                                                            </table>
-
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
-
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/20131120142341.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   箱体</a>
-                                                                                                    </td>
-                                                                                                </tr>
-
-
-                                                                                            </table>
-
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
-
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/20131120142325.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   箱体</a>
-                                                                                                    </td>
-                                                                                                </tr>
-
-
-                                                                                            </table>
-
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
-
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/20131120142231.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   曵引轮</a>
-                                                                                                    </td>
-                                                                                                </tr>
-
-
-                                                                                            </table>
-
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
-
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/20131120141728.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   阀体</a>
-                                                                                                    </td>
-                                                                                                </tr>
-
-
-                                                                                            </table>
-
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
-
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/2013112014170.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   阀体</a>
-                                                                                                    </td>
-                                                                                                </tr>
-
-
-                                                                                            </table>
-
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
-
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/20131120141420.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   阀体</a>
-                                                                                                    </td>
-                                                                                                </tr>
-
-
-                                                                                            </table>
-
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
-
-                                                                                        <td valign="top" style="width:200px;">
-                                                                                            <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
-                                                                                                <tr>
-                                                                                                    <td style="height:30px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <img alt="" src='./upload/201318161632.jpg' style="width:150px; height:100px" /></td>
-                                                                                                    <td rowspan="3" style="width:20px;">
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr style=" background-image:url('images/profoot_03.jpg')">
-                                                                                                    <td style="height:14px;"></td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
-                                                                                                        <a href='#'>   5HP制冷压缩机壳体</a>
-                                                                                                    </td>
-                                                                                                </tr>
-
-
-                                                                                            </table>
-
-                                                                                        </td>
-                                                                                        <td style="width:10px;">&nbsp; </td>
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/20131120142713.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   电机座</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
 
                                                                                     </td>
-                                                                                </tr>
-                                                                            </table>
-                                                                        </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
 
-                                                                        <td id="demo2">
-                                                                        </td>
-                                                                    </tr>
-
-                                                                </table>
-                                                            </div>
-
-                                                            <script type="text/javascript" language="javascript">
-                                                                //滚动速度
-                                                                var speed = 1
-                                                                demo2.innerHTML = demo1.innerHTML
-                                                                //从右至左
-                                                                function Marquee() {
-                                                                    if (demo1.offsetWidth - demo.scrollLeft <= 0)
-                                                                        demo.scrollLeft = 0
-                                                                    else
-                                                                        demo.scrollLeft++
-                                                                }
-                                                                var MyMar = setInterval(Marquee, speed)
-                                                                demo.onmouseover = function () {
-                                                                    clearInterval(MyMar)
-                                                                }
-                                                                demo.onmouseout = function () {
-                                                                    MyMar = setInterval(Marquee, speed)
-                                                                }
-                                                            </script>
-                                                        </td>
-                                                        <td valign="top">
-                                                            <img src="images/right.jpg" />
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-
-                                        </td>
-
-                                    </tr>
-                                </table>
-                            </td>
-                            <td style="width:20px;">&nbsp;&nbsp;&nbsp;</td>
-                            <td valign="top">
-                                <table border="0" cellpadding="0" cellspacing="0" style="width:262px;">
-                                    <tr>
-                                        <td>
-                                            <div style="border: 1px solid #d8d5d5; height:30px; background-image:url(images/bg3.jpg);  height:31px; ">
-                                                <span style="text-align:left; display:block;float:left;line-height:30px;padding:0px 10px 0px 10px;font-weight:bold;font-size:13px; color:Gray">Contact Us</span>
-                                            </div>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td style="font-size:12px; font-family:宋体;color: #666666;border-style: solid; border-width: 0px 1px 1px 1px; border-color: #d8d5d5; height:250px;">
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/20131120142450.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   箱体</a>
+                                                                                                </td>
+                                                                                            </tr>
 
 
-                                            <div style="margin-left:12px; margin-right:12px; line-height:20px">
-                                                <span id="lbLxwm"><p>Add:Yinyang, Maoyang Town, Xiangshan County, Ningbo, Zhejiang Province<br />
+                                                                                        </table>
+
+                                                                                    </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
+
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/20131120142341.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   箱体</a>
+                                                                                                </td>
+                                                                                            </tr>
+
+
+                                                                                        </table>
+
+                                                                                    </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
+
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/20131120142325.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   箱体</a>
+                                                                                                </td>
+                                                                                            </tr>
+
+
+                                                                                        </table>
+
+                                                                                    </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
+
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/20131120142231.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   曵引轮</a>
+                                                                                                </td>
+                                                                                            </tr>
+
+
+                                                                                        </table>
+
+                                                                                    </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
+
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/20131120141728.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   阀体</a>
+                                                                                                </td>
+                                                                                            </tr>
+
+
+                                                                                        </table>
+
+                                                                                    </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
+
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/2013112014170.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   阀体</a>
+                                                                                                </td>
+                                                                                            </tr>
+
+
+                                                                                        </table>
+
+                                                                                    </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
+
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/20131120141420.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   阀体</a>
+                                                                                                </td>
+                                                                                            </tr>
+
+
+                                                                                        </table>
+
+                                                                                    </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
+
+                                                                                    <td valign="top" style="width:200px;">
+                                                                                        <table style="width:100%;" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="height:30px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <img alt="" src='./upload/201318161632.jpg' style="width:150px; height:100px" /></td>
+                                                                                                <td rowspan="3" style="width:20px;">
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr style=" background-image:url('images/profoot_03.jpg')">
+                                                                                                <td style="height:14px;"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style=" font-size:12px; font-family:宋体; color:#666666; height:30px; text-align:center">
+                                                                                                    <a href='#'>   5HP制冷压缩机壳体</a>
+                                                                                                </td>
+                                                                                            </tr>
+
+
+                                                                                        </table>
+
+                                                                                    </td>
+                                                                                    <td style="width:10px;">&nbsp; </td>
+
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+
+                                                                    <td id="demo2">
+                                                                    </td>
+                                                                </tr>
+
+                                                            </table>
+                                                        </div>
+
+                                                        <script type="text/javascript" language="javascript">
+                                                            //滚动速度
+                                                            var speed = 1
+                                                            demo2.innerHTML = demo1.innerHTML
+                                                            //从右至左
+                                                            function Marquee() {
+                                                                if (demo1.offsetWidth - demo.scrollLeft <= 0)
+                                                                    demo.scrollLeft = 0
+                                                                else
+                                                                    demo.scrollLeft++
+                                                            }
+                                                            var MyMar = setInterval(Marquee, speed)
+                                                            demo.onmouseover = function () {
+                                                                clearInterval(MyMar)
+                                                            }
+                                                            demo.onmouseout = function () {
+                                                                MyMar = setInterval(Marquee, speed)
+                                                            }
+                                                        </script>
+                                                    </td>
+                                                    <td valign="top">
+                                                        <img src="images/right.jpg" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+
+                                    </td>
+
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width:20px;">&nbsp;&nbsp;&nbsp;</td>
+                        <td valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" style="width:262px;">
+                                <tr>
+                                    <td>
+                                        <div style="border: 1px solid #d8d5d5; height:30px; background-image:url(images/bg3.jpg);  height:31px; ">
+                                            <span style="text-align:left; display:block;float:left;line-height:30px;padding:0px 10px 0px 10px;font-weight:bold;font-size:13px; color:Gray">Contact Us</span>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="font-size:12px; font-family:宋体;color: #666666;border-style: solid; border-width: 0px 1px 1px 1px; border-color: #d8d5d5; height:250px;">
+
+
+                                        <div style="margin-left:12px; margin-right:12px; line-height:20px">
+                                            <span id="lbLxwm"><p>Add:Yinyang, Maoyang Town, Xiangshan County, Ningbo, Zhejiang Province<br />
                                                     Tel:0574-65902323<br />
                                                     Fax:0574-65903958<br />
                                                     E-mail:sales@unioncasting.net<br />
@@ -490,50 +493,50 @@
                                                     <br />
                                                     &nbsp;</p>
                                                 </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-image: url(images/foot.jpg); height:80px">
-                    <table style=" width:100%; height:80px;">
-                        <tr>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-image: url(images/foot.jpg); height:80px">
+                <table style=" width:100%; height:80px;">
+                    <tr>
 
-                            <td>
-                                <table border="0" cellpadding="0" cellspacing="0" width="990px" align="center">
-                                    <tr>
-                                        <td style="font-size:12px; font-family:宋体; background-color:#f1f1f1; height:50px;">
-                                            <a href="./en-about.html"> About Us</a> | <a href="./en-product.html">Products</a> | <a href="./en-news.html">News</a> | <a href="./en-contactUs.html">Contact Us</a>
-                                        </td>
-                                        <td style="text-align:right">
-                                            <img src="./images/footlogoen.jpg" />
-                                        </td>
-                                    </tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="990px" align="center">
+                                <tr>
+                                    <td style="font-size:12px; font-family:宋体; background-color:#f1f1f1; height:50px;">
+                                        <a href="./en-about.html"> About Us</a> | <a href="./en-product.html">Products</a>                                        | <a href="./en-news.html">News</a> | <a href="./en-contactUs.html">Contact Us</a>
+                                    </td>
+                                    <td style="text-align:right">
+                                        <img src="./images/footlogoen.jpg" />
+                                    </td>
+                                </tr>
 
-                                </table>
+                            </table>
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="font-size:12px; font-family:宋体; text-align:left; height:30px; background-color:White">
-                                <table style="width:990px;" align="center">
-                                    <tr>
-                                        <td>
-                                            Copy Right 2017 Ningbo Union-Ligu Machinery Manufacturing Co., Ltd
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size:12px; font-family:宋体; text-align:left; height:30px; background-color:White">
+                            <table style="width:990px;" align="center">
+                                <tr>
+                                    <td>
+                                        Copy Right 2017 Ningbo Union-Ligu Machinery Manufacturing Co., Ltd
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 
 
 </body>
